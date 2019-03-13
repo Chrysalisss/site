@@ -32,18 +32,20 @@ html {
 }
 
 .description {
-  color: #999;
-  text-shadow: 0 0 1px #fff;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 2px 3px rgb(255, 255, 255);
 }
 
 .btn {
-  border: 1px solid #000;
+  border: 1px solid #000000;
   border-radius: 150px;
   padding: 8px 16px;
   font-size: 22px;
   display: inline-flex;
   text-decoration: none;
   justify-content: center;
-  color: #000;
+  color: #000000;
+
+  /*background-color:rgba(0, 0, 0, 0.253);*/
   align-items: center;
 }
